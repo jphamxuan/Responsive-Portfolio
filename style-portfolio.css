@@ -1,0 +1,138 @@
+html {
+    height: 100%;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; 
+    background:url('./assets/circles-dark.png');/* Avoid the IE 10-11 `min-height` bug. */
+  }
+  .content {
+    flex: 1 0 auto; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
+    padding: 20px;
+  }
+  .footer {
+    flex-shrink: 0; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
+    padding: 20px;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    font: 16px Sans-Serif;
+  }
+  h1 {
+    margin: 0 0 20px 0;
+  }
+  p {
+    margin: 0 0 20px 0;
+  }
+  footer {
+    background: #666666;
+    color: white;
+    line-height: 100px;
+  }
+  
+  #sidebar {width: 270px;
+    float: right;
+    background: white;
+    margin-top: 20px;
+    padding: 10px;
+    padding-bottom: 15px;
+    text-align: center;
+    position: relative;
+    top: -1085px;
+
+    
+
+}
+
+#about-me {width: 650px;
+  background: white;
+  
+  padding: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+}
+#contact {float:right;
+  padding: 10px; 
+} 
+#stuff { background: #4aaaa5;
+  color: white;
+  float: left;
+  margin-left: -40px;
+  padding: 20px;
+} 
+  @media screen and (max-width: 980px) 
+  {
+    body { 
+      color: pink;
+    }
+    #sidebar {width: 250px;
+      float: right;
+      margin-left: 30px;
+      position: relative;
+    top: -1461px;
+    right: 327px;
+  
+}      
+      #about-me {width: 311px;
+        padding: 25px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left:40px;
+}
+#contact {float:left;
+  padding: 10px;
+  margin-left:-100px;
+}  
+td {
+  display: table-row;
+}
+  
+  }
+
+ @media screen and (max-width: 768px) {
+    body { color: green;} 
+    #about-me {width: 311px;
+}
+    #sidebar {width: 440px;
+      position: relative;
+      top: -12px;
+      left: -478px;
+  
+} 
+footer{position: relative;
+top: 185px;
+ }
+    @media screen and (max-width: 640px) {
+    body { color: red;}
+    #stuff {width: 640px;
+      color: white;
+      margin-left:
+      padding: 20px;
+    } 
+
+ #contact {position: absolute;
+  background-color:  white;
+  top: 86px;
+  left: 292px;
+  padding-left: 10px;
+  margin-left:-100px;
+} 
+#about-me {width: 311px;
+  position: relative;
+  top: 65px;
+  left: 109px;
+}
+#sidebar {width: 440px;
+  position: relative;
+  top: 50px;
+  left: -433px;
+}
+  footer{position: relative;
+    top: 257px;
+  }
